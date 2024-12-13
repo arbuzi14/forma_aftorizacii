@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap");
+
+@keyframes rotate_image{
+  to{
+    background-position: 15% 50%;
+  }
+ }
+
+html{
+  height:100%;
+}
+
+
+body{
+  height:inherit;
+  color: black;
+  font-family: "Sour Gummy", sans-serif;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  background-image:url("bebre.jpeg");
+  background-size:cover;
+  background-repeat: no-repeat;
+  animation: rotate_image 6s infinite alternate linear;
+}
+
+
+.authorization{
+  width: 30%;
+  padding: 50 30 44 px;
+  border-radius: 1.25rem;
+  text-align: center;
+  background-color: #f0f0f0;
+}
+
+h1{
+  font-weight: 600;
+  font-size: 36px;
+ }
+
+form{
+  display:flex;
+  flex-direction:column;
+}
+
+input{
+  margin:0 auto;
+  height: 50px;
+  width: 80%;
+  border: solid 2px #ebebeb;
+  font-size: 15px;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+  border-radius:1.25rem;
+}
+
+button{
+  height: 50px;
+  width:85%;
+  margin:10px auto;
+  padding-right: 16px;
+  padding-left: 16px;
+  border-radius: 1.25rem;
+  border: 0;
+  font-size: 1rem;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 2px;
+  background-color: #5b1098;
+  color: #f9f9f9;
+  cursor:pointer;
+}
+
+a{
+ width: 80%;
+ color: #5b1098;
+ font-size: 0.9rem;
+ text-align: left;
+ text-decoration: none;
+ margin-left: 10%;
+ }
+
+ input:hover{
+  border: solid 2px #10449A;
+  transition: all 0.375s
+ }
+
+ button:hover{
+  background-color: #981086;
+  transition: all 0.375s
+ }
+
+ a:hover{
+  color: #981086;
+  transition: all 0.375s
+ }
+
+
+
+
